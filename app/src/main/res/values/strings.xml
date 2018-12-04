@@ -22,5 +22,10 @@
     <string name="scroll_view_definition">ScrollView: A view group that allows the view hierarchy placed within it to be scrolled. Scroll view may have only one direct child placed within it. To add multiple views within the scroll view, make the direct child you add a view group, for example LinearLayout, and place additional views within that LinearLayout.</string>
     <string name="spinner_example">Spinner example</string>
     <string name="cupcake">Cupcake</string>
+    <string name="click_smallest_button">Click the smallest</string>
+    <string name="click">Click</string>
+    <string name="button">button</string>
+    <string name="go_to_next_activity">Go to next activity.</string>
+    <string name="call">Call</string>
 
 </resources>
