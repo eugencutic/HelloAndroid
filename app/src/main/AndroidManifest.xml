@@ -3,7 +3,8 @@
     package="com.cutic.eugen.helloandroid">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".week_5.PhotosPicassoActivity">
+        <activity android:name=".week_6.DynamicActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,7 +27,9 @@
         <activity android:name=".week_4.ViewGroupsExampleActivity" />
         <activity android:name=".week_4.RecyclerViewActivity" />
         <activity android:name=".week_5.FunnyActivity" />
-        <activity android:name=".week_5.SecondActivity"></activity>
+        <activity android:name=".week_5.SecondActivity" />
+        <activity android:name=".week_5.PhotosPicassoActivity" />
+        <activity android:name=".week_6.StaticFragmentActivity"></activity>
     </application>
 
 </manifest>
