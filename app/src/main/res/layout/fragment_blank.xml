@@ -8,13 +8,10 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/text_view_is_odd_or_even"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello_blank_fragment" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:padding="@dimen/space_M"
         android:text="@string/hello_blank_fragment" />
 
 </LinearLayout>

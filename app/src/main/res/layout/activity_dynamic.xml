@@ -7,10 +7,27 @@
     android:orientation="vertical"
     tools:context=".week_6.DynamicActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world"/>
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_text_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space_S"
+            android:hint="@string/add_a_number"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space_S"
+            android:text="@string/send"
+            android:onClick="btnCheckNumberOnClick"/>
+
+    </LinearLayout>
+
 
     <FrameLayout
         android:id="@+id/container_frame_layout"
