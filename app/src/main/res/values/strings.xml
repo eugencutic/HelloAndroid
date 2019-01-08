@@ -33,5 +33,13 @@
     <string name="add_a_number">Add a number</string>
     <string name="send">SEND</string>
     <string name="get_sum">Get sum</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="pick_time">Pick Time</string>
+    <string name="dialog">Dialog</string>
+    <string name="notice">Notice</string>
+    <string name="alert_message">What now?</string>
+    <string name="launch_app">Launch App</string>
+    <string name="remind_me">Remind me</string>
+    <string name="cancel">Cancel</string>
 
 </resources>

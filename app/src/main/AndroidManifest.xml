@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".week_6.ListenerActivity">
+        <activity android:name=".week_7.DateActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,7 +30,8 @@
         <activity android:name=".week_5.SecondActivity" />
         <activity android:name=".week_5.PhotosPicassoActivity" />
         <activity android:name=".week_6.StaticFragmentActivity" />
-        <activity android:name=".week_6.DynamicActivity"></activity>
+        <activity android:name=".week_6.DynamicActivity" />
+        <activity android:name=".week_6.ListenerActivity"></activity>
     </application>
 
 </manifest>
